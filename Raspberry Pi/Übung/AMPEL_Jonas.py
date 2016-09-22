@@ -13,7 +13,7 @@ GPIO.setup(2,GPIO.IN)
 state = True
 #Ampel
 #Rot Phase Fußgänger
-if state == True:
+while True:
 	print "Stehenbleiben"
 	GPIO.output(27,GPIO.HIGH)
 	GPIO.output(22,GPIO.HIGH)
